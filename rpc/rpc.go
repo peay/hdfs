@@ -10,7 +10,7 @@ import (
 	"math/rand"
 	"time"
 
-	hdfs "github.com/colinmarc/hdfs/protocol/hadoop_hdfs"
+	hdfs "github.com/peay/hdfs/protocol/hadoop_hdfs"
 	"github.com/golang/protobuf/proto"
 )
 
@@ -22,9 +22,9 @@ const (
 )
 
 var (
-	connectTimeout  = 1 * time.Second
-	namenodeTimeout = 3 * time.Second
-	datanodeTimeout = 3 * time.Second
+	connectTimeout  = 15 * time.Second
+	namenodeTimeout = 15 * time.Second
+	datanodeTimeout = 15 * time.Second
 )
 
 // Used for client ID generation, below.

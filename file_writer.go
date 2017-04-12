@@ -4,8 +4,8 @@ import (
 	"io"
 	"os"
 
-	hdfs "github.com/colinmarc/hdfs/protocol/hadoop_hdfs"
-	"github.com/colinmarc/hdfs/rpc"
+	hdfs "github.com/peay/hdfs/protocol/hadoop_hdfs"
+	"github.com/peay/hdfs/rpc"
 	"github.com/golang/protobuf/proto"
 )
 

@@ -8,7 +8,7 @@ import (
 	"net"
 	"sync"
 
-	hadoop "github.com/colinmarc/hdfs/protocol/hadoop_common"
+	hadoop "github.com/peay/hdfs/protocol/hadoop_common"
 	"github.com/golang/protobuf/proto"
 )
 
